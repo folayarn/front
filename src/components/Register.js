@@ -39,7 +39,7 @@ onSubmit=(e)=>{
   User.append('name',this.state.name)
   
   return axios
-  .post('http://localhost:8000/api/signup',
+  .post('https://backendj.herokuapp.com/api/signup',
     User
   ,{
       headers:{'Content-type':'application/json'}
@@ -70,7 +70,7 @@ this.setState({success:true})
       done:true
   })
     return axios
-    .post('http://localhost:8000/api/facebook',
+    .post('https://backendj.herokuapp.com/api/facebook',
     data
     ,{
         headers:{'Content-type':'application/json'}      
