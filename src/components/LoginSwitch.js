@@ -33,7 +33,7 @@ class LoginSwitch extends Component{
                             image:image,
                             loading:false
                             })
-                         axios.get('http://localhost:8000/api/user',{
+                         axios.get('https://backendj.herokuapp.com/api/user',{
                             headers:{Authorization: `Bearer ${localStorage.vk}`}
                         
                         }).then((res)=>{
