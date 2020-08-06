@@ -4,7 +4,7 @@ import axios from 'axios'
 
         export const getList=()=>{
             return axios
-            .get('https://localhost:8000/api/allusers',{
+            .get('https://backendj.herokuapp.com/api/allusers',{
                 headers:{'Content-Type':'application/json'}
 
             }).then(res=>{
@@ -21,7 +21,7 @@ import axios from 'axios'
 
 export const login=(details)=>{
     return axios
-    .post('http://localhost:8000/api/login',
+    .post('https://backendj.herokuapp.com/api/login',
     details
     ,{
         headers:{'Content-type':'application/json'}
