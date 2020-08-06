@@ -36,7 +36,7 @@ logIn=(res)=>{
     done:true
 })
 return axios
-.post('http://localhost:8000/api/facelock',
+.post('https://backendj.herokuapp.com/api/facelock',
 data
 ,{
     headers:{'Content-type':'application/json'}
