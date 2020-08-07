@@ -152,6 +152,7 @@ className="pull-right" onClick={this.onSubmit} size="sm"><span className="fa fa-
     callback={this.responseFacebook} 
     cssClass="my-facebook-button-class"
     icon="fa-facebook"
+    disableMobileRedirect={true}
 
     />
 
