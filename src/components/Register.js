@@ -178,6 +178,7 @@ const { password,confirmed,name,email,error} =this.state
     callback={this.responseFacebook} 
     cssClass="my-facebook-button-class"
     icon="fa-facebook"
+    disableMobileRedirect={true}
 
     />
 
